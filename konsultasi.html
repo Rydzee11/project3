@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <title>Konsultasi - Universitas Cakrawala Nusantara</title>
+    </head>
+    <body>
+        <!-- Bagian Atas -->
+        <table bgcolor="#0096FF" width="100%">
+            <tr>
+                <td>
+                    <header>
+                        <h1><font color="#FFDB58">Universitas Cakrawala Nusantara</font></h1>
+                        <p><b><font color="#FFDB58">Ilmu yang Hidup, Inovasi yang Tumbuh, Integritas yang Kokoh.</font></b></p>
+                    </header>
+                </td>
+            </tr>
+        </table>
+
+        <nav>
+            <table width="100%" bgcolor="#50C878" cellspacing="3" cellpadding="10">
+            <tr align="center">
+                <td><a href="index.html"><b>Home</b></a></td>
+             </tr>    
+            </table>
+        </nav>
+    
+        <!-- Konten Utama -->
+        <main>
+            <h2>Formulir Konsultasi</h2>
+            <p>Silakan isi formulir berikut untuk mengajukan pertanyaan atau konsultasi terkait Universitas Cakrawala Nusantara.</p>
+        
+            <form>
+                <label for="nama">Nama Lengkap:</label><br>
+                <input type="text" id="nama" name="tnama"><br>
+
+                <label for="nama">NIM:</label><br>
+                <input type="text" id="nim" name="tnim"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="temail"><br>
+
+                <label for="kategori">Kategori Konsultasi:</label><br>
+                <select id="kategori" name="kategori" required>
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="pendaftaran">Pendaftaran Mahasiswa Baru</option>
+                    <option value="beasiswa">Beasiswa</option>
+                    <option value="akademik">Akademik</option>
+                    <option value="lainnya">Lainnya</option>
+                </select><br>
+
+                <label for="pesan">Pertanyaan / Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="6" cols="60" required></textarea><br><br>
+
+                <input type="submit" value="Kirim">
+                <input type="reset" value="Bersihkan">
+            </form>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <b><hr>
+            <p>&copy; A12.2024.07218 | MUHAMAD FARID ALFARIZI</p></b>
+        </footer>
+    </body>
+</html>
